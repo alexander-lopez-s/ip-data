@@ -17,8 +17,6 @@ const FetchData = () => {
             })
     }, [])
 
-    console.log(data)
-
     return (
         <>
             {error && <p>{error}</p>}
